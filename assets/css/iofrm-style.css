@@ -1,5 +1,13 @@
 /*------------------------------------------------------------------
-
+ * Theme Name: iofrm - form templates
+ * Theme URI: http://www.brandio.io/envato/iofrm
+ * Author: Brandio
+ * Author URI: http://www.brandio.io/
+ * Description: A Bootstrap Responsive HTML5 Template
+ * Version: 1.0
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ * Bootstrap v4.1 (http://getbootstrap.com)
+ * Copyright 2019 Brandio.
  -------------------------------------------------------------------*/
 
 
@@ -10,12 +18,6 @@
 2. Responsive Styles.
 -------------------------------------------------------------------*/
 
-
-/* ############### FONTS IMPORT ############### */
-
-@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900");
-@import url("https://fonts.googleapis.com/css?family=Roboto+Mono");
-@import url("https://fonts.googleapis.com/css?family=Rubik:300,400");
 @import url("https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900");
 
 /* -----------------------------------
@@ -36,8 +38,42 @@ body {
     height: 100%;
 }
 
+.dotcontent {
+    display: inline-block;
+    position: absolute;
+    z-index: 1000;
+    top: 50px;
+    right: 50px;
+    left: initial;
+    bottom: initial;
+}
+
+.dot {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(7, 102, 51);
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dot1 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(243, 239, 8);
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dot2 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(204, 36, 7);
+    border-radius: 50%;
+    display: inline-block;
+}
+
 .form-body {
-    background-color: #0093FF;
+    background-color: #f0f0f0;
     height: 100%;
 }
 
@@ -78,7 +114,7 @@ body {
 }
 
 .website-logo .logo img.logo-size {
-    opacity: 0 !important;
+    /* opacity: 0 !important; */
 }
 
 .website-logo-inside {
@@ -161,7 +197,7 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    width: 550px;
+    width: 47%;
     min-height: 700px;
     height: 100%;
     overflow: hidden;
@@ -251,7 +287,7 @@ body {
     top: 0;
     width: 100%;
     height: 100%;
-    background-image: url("../images/img1.jpg");
+    background-image: url("../../assets/img/image2.jpg");
     background-size: cover;
     background-position: center;
     z-index: -1;
@@ -326,7 +362,7 @@ body {
 
 .form-content {
     position: relative;
-    background-color: #0093FF;
+    background-color: #f0f0f0;
 }
 
 .form-content .form-group {
@@ -345,9 +381,9 @@ body {
 }
 
 .form-content h3 {
-    color: #fff;
+    color: rgb(12, 12, 12);
     text-align: left;
-    font-size: 24px;
+    font-size: 28px;
     font-weight: 900;
     margin-bottom: 10px;
 }
@@ -357,7 +393,7 @@ body {
 }
 
 .form-content p {
-    color: #fff;
+    color: rgb(20, 20, 20);
     text-align: left;
     font-size: 18px;
     font-weight: 300;
@@ -427,7 +463,7 @@ body {
 .form-content input,
 .form-content .dropdown-toggle.btn-default {
     width: 100%;
-    padding: 9px 20px;
+    padding: 23px 20px;
     text-align: left;
     border: 0;
     outline: 0;
@@ -435,7 +471,7 @@ body {
     background-color: #fff;
     font-size: 15px;
     font-weight: 300;
-    color: #8D8D8D;
+    color: #dcdcdc;
     -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease;
     margin-bottom: 14px;
@@ -727,11 +763,12 @@ body {
 }
 
 .form-content .form-button .ibtn {
+    width: 100%;
     border-radius: 6px;
     border: 0;
-    padding: 6px 28px;
-    background-color: #fff;
-    color: #29A4FF;
+    padding: 11px 28px;
+    background-color: #076633;
+    color: #ffffff;
     font-size: 14px;
     font-weight: 700;
     text-decoration: none;
