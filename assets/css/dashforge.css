@@ -96,7 +96,7 @@ body {
 
 .text-welcome {
     display: inline-block;
-    padding: 50px 20px;
+    padding: 100px 20px;
 }
 
 .welcome-head.card-bodynopad {
@@ -2411,9 +2411,9 @@ fieldset:disabled a.btn {
 }
 
 .btn-primary {
-    color: #fff;
-    background-color: #076633;
-    border-color: #076633;
+    color: rgb(7 102 51);
+    background-color: rgb(244 245 248);
+    border-color: rgb(7 102 51 / 28%);
 }
 
 .btn-primary:hover {
@@ -18250,6 +18250,11 @@ textarea.parsley-success:focus {
     height: 20px;
     stroke-width: 2.5px;
     margin-right: -2px;
+}
+
+.logo {
+    max-width: 20% !important;
+    height: auto;
 }
 
 .aside-logo {
