@@ -1466,6 +1466,7 @@ input.sm-content {
 .form-body.without-side .website-logo {
     top: 0;
     left: 50%;
+    position: relative;
     margin-left: -50px;
     right: initial;
     bottom: initial;

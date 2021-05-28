@@ -96,6 +96,7 @@ body {
 
 .text-welcome {
     display: inline-block;
+    width: 54%;
     padding: 100px 20px;
 }
 
