@@ -1,0 +1,3 @@
+    $('#tableui').DataTable({
+
+    });
