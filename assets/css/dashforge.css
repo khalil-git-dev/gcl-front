@@ -23,7 +23,7 @@
  */
 
 :root {
-    --blue: #076633;
+    --green: #076633;
     --indigo: #5b47fb;
     --purple: #6f42c1;
     --pink: #f10075;
@@ -10403,7 +10403,10 @@ strong {
 .sp-container .btn-group-sm>button.btn-uppercase,
 .ui-datepicker-buttonpane button.btn-uppercase {
     font-size: 11px;
-    line-height: 1.773;
+    line-height: 2.773;
+    border-radius: 40px;
+    color: white;
+    background-color: var(--primary);
 }
 
 .btn-uppercase.btn-xs {

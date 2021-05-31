@@ -243,11 +243,11 @@
                             <div>
                                 <nav aria-label="breadcrumb">
                                     <ol class="breadcrumb breadcrumb-style1 mg-b-10">
-                                        <li class="breadcrumb-item"><a href="#">Dashboard</a></li>
-                                        <li class="breadcrumb-item active" aria-current="page">liste des éléves</li>
+                                        <li class="breadcrumb-item"><a href="#">Tableau de Bord</a></li>
+                                        <li class="breadcrumb-item active" aria-current="page">Etat financier</li>
                                     </ol>
                                 </nav>
-                                <h4 class="mg-b-0 tx-spacing--1">Liste des éléves</h4>
+                                <h4 class="mg-b-0 tx-spacing--1">Finance</h4>
                             </div>
                             <div class="d-none d-md-block">
                                 <button class="btn btn-sm pd-x-15 btn-white btn-uppercase mg-l-5"><i data-feather="printer" class="wd-10 mg-r-5"></i> Imprimer</button>
@@ -258,46 +258,67 @@
 
                         <div class="row row-xs">
 
-                            <div class="col-sm-6 col-lg-4">
-                                <div class="card card-body">
-                                    <h6 class="tx-uppercase tx-11 tx-spacing-1 tx-color-02 tx-semibold mg-b-8">Actif</h6>
-                                    <div class="d-flex d-lg-block d-xl-flex align-items-end">
-                                        <h3 class="tx-normal tx-rubik mg-b-0 mg-r-5 lh-1">0.81%</h3>
-                                        <p class="tx-11 tx-color-03 mg-b-0"><span class="tx-medium tx-success">1.2% <i class="icon ion-md-arrow-up"></i></span></p>
+                            <div class="col-lg-4 col-md-6 mg-t-10">
+                                <div class="card">
+                                    <div class="card-body pd-y-20 pd-x-25">
+                                        <div class="row row-sm">
+                                            <div class="col-7">
+                                                <h3 class="tx-normal tx-rubik tx-spacing--1 mg-b-5">3,605</h3>
+                                                <h6 class="tx-12 tx-semibold tx-uppercase tx-spacing-1 tx-primary mg-b-5">Click Through</h6>
+                                                <p class="tx-11 tx-color-03 mg-b-0">No. of clicks to ad that consist of a single impression.</p>
+                                            </div>
+                                            <div class="col-5">
+                                                <div class="chart-ten">
+                                                    <div id="flotChart3" class="flot-chart"></div>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <div class="chart-three">
-                                        <div id="flotChart3" class="flot-chart ht-30"></div>
-                                    </div>
-                                    <!-- chart-three -->
+                                    <!-- card-body -->
                                 </div>
+                                <!-- card -->
                             </div>
                             <!-- col -->
-                            <div class="col-sm-6 col-lg-4 mg-t-10 mg-sm-t-0">
-                                <div class="card card-body">
-                                    <h6 class="tx-uppercase tx-11 tx-spacing-1 tx-color-02 tx-semibold mg-b-8">Inactif</h6>
-                                    <div class="d-flex d-lg-block d-xl-flex align-items-end">
-                                        <h3 class="tx-normal tx-rubik mg-b-0 mg-r-5 lh-1">3,137</h3>
-                                        <p class="tx-11 tx-color-03 mg-b-0"><span class="tx-medium tx-danger">0.7% <i class="icon ion-md-arrow-down"></i></span></p>
+                            <div class="col-lg-4 col-md-6 mg-t-10">
+                                <div class="card">
+                                    <div class="card-body pd-y-20 pd-x-25">
+                                        <div class="row row-sm">
+                                            <div class="col-7">
+                                                <h3 class="tx-normal tx-rubik tx-spacing--1 mg-b-5">3,266</h3>
+                                                <h6 class="tx-12 tx-semibold tx-uppercase tx-spacing-1 tx-teal mg-b-5">View Through</h6>
+                                                <p class="tx-11 tx-color-03 mg-b-0">Estimated daily unique views per visitor on the ads.</p>
+                                            </div>
+                                            <div class="col-5">
+                                                <div class="chart-ten">
+                                                    <div id="flotChart4" class="flot-chart"></div>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <div class="chart-three">
-                                        <div id="flotChart4" class="flot-chart ht-30"></div>
-                                    </div>
-                                    <!-- chart-three -->
+                                    <!-- card-body -->
                                 </div>
+                                <!-- card -->
                             </div>
                             <!-- col -->
-                            <div class="col-sm-6 col-lg-4 mg-t-10 mg-lg-t-0">
-                                <div class="card card-body">
-                                    <h6 class="tx-uppercase tx-11 tx-spacing-1 tx-color-02 tx-semibold mg-b-8">Total</h6>
-                                    <div class="d-flex d-lg-block d-xl-flex align-items-end">
-                                        <h3 class="tx-normal tx-rubik mg-b-0 mg-r-5 lh-1">$306.20</h3>
-                                        <p class="tx-11 tx-color-03 mg-b-0"><span class="tx-medium tx-danger">0.3% <i class="icon ion-md-arrow-down"></i></span></p>
+                            <div class="col-lg-4 col-md-6 mg-t-10">
+                                <div class="card">
+                                    <div class="card-body pd-y-20 pd-x-25">
+                                        <div class="row row-sm">
+                                            <div class="col-7">
+                                                <h3 class="tx-normal tx-rubik tx-spacing--1 mg-b-5">8,765</h3>
+                                                <h6 class="tx-12 tx-semibold tx-uppercase tx-spacing-1 tx-pink mg-b-5">Total Conversions</h6>
+                                                <p class="tx-11 tx-color-03 mg-b-0">Estimated total conversions on ads per impressions to ads.</p>
+                                            </div>
+                                            <div class="col-5">
+                                                <div class="chart-ten">
+                                                    <div id="flotChart5" class="flot-chart"></div>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <div class="chart-three">
-                                        <div id="flotChart5" class="flot-chart ht-30"></div>
-                                    </div>
-                                    <!-- chart-three -->
+                                    <!-- card-body -->
                                 </div>
+                                <!-- card -->
                             </div>
                             <!-- col -->
                             <!-- TABLEAU-->
@@ -322,23 +343,9 @@
                                             <td>System Architect</td>
                                             <td>2011/04/25</td>
                                             <td>Edinburgh</td>
-                                            <td><span class="badge badge-success">actif</span>
-                                            </td>
+                                            <td>61</td>
 
-                                            <td>
-                                                <div class="dropdown dropright dropdown-link">
-                                                    <span type="button" id="dropleftMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                                    <i data-feather="more-vertical"></i>
-                                                    </span>
-                                                    <div class="dropdown-menu" aria-labelledby="dropleftMenuButton">
-                                                        <ul>
-                                                            <li><a href="#">Voir plus</a></li>
-                                                            <li><a href="#">Modifier</a></li>
-                                                            <li><a href="#">Supprimer</a></li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                            </td>
+                                            <td><a href="#">voir plus</a></td>
                                         </tr>
                                         <tr>
                                             <td>N0124598</td>
@@ -346,8 +353,7 @@
                                             <td>Accountant</td>
                                             <td>2011/07/25</td>
                                             <td>Tokyo</td>
-                                            <td><span class="badge badge-success">actif</span>
-                                            </td>
+                                            <td>63</td>
 
                                             <td><a href="#">voir plus</a></td>
                                         </tr>
@@ -357,8 +363,7 @@
                                             <td>Junior Technical Author</td>
                                             <td>San Francisco</td>
                                             <td>66</td>
-                                            <td><span class="badge badge-success">actif</span>
-                                            </td>
+                                            <td>2009/01/12</td>
                                             <td><a href="#">voir plus</a></td>
                                         </tr>
                                         <tr>
@@ -367,8 +372,7 @@
                                             <td>Senior Javascript Developer</td>
                                             <td>Edinburgh</td>
                                             <td>22</td>
-                                            <td><span class="badge badge-danger">inactif</span>
-                                            </td>
+                                            <td>2012/03/29</td>
                                             <td><a href="#">voir plus</a></td>
                                         </tr>
                                         <tr>
@@ -377,8 +381,7 @@
                                             <td>Accountant</td>
                                             <td>Tokyo</td>
                                             <td>33</td>
-                                            <td><span class="badge badge-success">actif</span>
-                                            </td>
+                                            <td>2008/11/28</td>
                                             <td><a href="#">voir plus</a></td>
                                         </tr>
                                         <tr>
@@ -386,9 +389,8 @@
                                             <td>Brielle Williamson</td>
                                             <td>Integration Specialist</td>
                                             <td>New York</td>
+                                            <td>61</td>
                                             <td>2012/12/02</td>
-                                            <td><span class="badge badge-danger">inactif</span>
-                                            </td>
                                             <td><a href="#">voir plus</a></td>
                                         </tr>
                                         <tr>
@@ -397,7 +399,7 @@
                                             <td>Sales Assistant</td>
                                             <td>2012/08/06</td>
                                             <td>San Francisco</td>
-                                            <td><span class="badge badge-danger">inactif</span></td>
+                                            <td>59</td>
                                             <td><a href="#">voir plus</a></td>
                                         </tr>
                                         <tr>
@@ -406,7 +408,7 @@
                                             <td>Integration Specialist</td>
                                             <td>2010/10/14</td>
                                             <td>Tokyo</td>
-                                            <td><span class="badge badge-danger">inactif</span></td>
+                                            <td>55</td>
                                             <td><a href="#">voir plus</a></td>
                                         </tr>
                                         <tr>
@@ -415,7 +417,7 @@
                                             <td>Javascript Developer</td>
                                             <td>2009/09/15</td>
                                             <td>San Francisco</td>
-                                            <td><span class="badge badge-danger">inactif</span></td>
+                                            <td>39</td>
                                             <td><a href="#">voir plus</a></td>
                                         </tr>
                                         <tr>
@@ -424,7 +426,7 @@
                                             <td>Software Engineer</td>
                                             <td>2008/12/13</td>
                                             <td>Edinburgh</td>
-                                            <td><span class="badge badge-danger">inactif</span></td>
+                                            <td>23</td>
                                             <td><a href="#">voir plus</a></td>
                                         </tr>
                                         <tr>
@@ -433,7 +435,7 @@
                                             <td>Accountant</td>
                                             <td>2008/11/28</td>
                                             <td>Tokyo</td>
-                                            <td><span class="badge badge-danger">inactif</span></td>
+                                            <td>33</td>
                                             <td><a href="#">voir plus</a></td>
                                         </tr>
                                         <tr>
@@ -442,7 +444,7 @@
                                             <td>Integration Specialist</td>
                                             <td>2012/12/02</td>
                                             <td>New York</td>
-                                            <td><span class="badge badge-danger">inactif</span></td>
+                                            <td>61</td>
                                             <td><a href="#">voir plus</a></td>
                                         </tr>
                                         <tr>
@@ -451,7 +453,7 @@
                                             <td>Sales Assistant</td>
                                             <td>2012/08/06</td>
                                             <td>San Francisco</td>
-                                            <td><span class="badge badge-danger">inactif</span></td>
+                                            <td>59</td>
                                             <td><a href="#">voir plus</a></td>
                                         </tr>
                                         <tr>
@@ -460,7 +462,7 @@
                                             <td>Integration Specialist</td>
                                             <td>2010/10/14</td>
                                             <td>Tokyo</td>
-                                            <td><span class="badge badge-danger">inactif</span></td>
+                                            <td>55</td>
                                             <td><a href="#">voir plus</a></td>
                                         </tr>
                                         <tr>
@@ -469,7 +471,7 @@
                                             <td>Javascript Developer</td>
                                             <td>2009/09/15</td>
                                             <td>San Francisco</td>
-                                            <td><span class="badge badge-danger">inactif</span></td>
+                                            <td>39</td>
                                             <td><a href="#">voir plus</a></td>
                                         </tr>
                                         <tr>
@@ -478,7 +480,7 @@
                                             <td>Software Engineer</td>
                                             <td>2008/12/13</td>
                                             <td>Edinburgh</td>
-                                            <td><span class="badge badge-danger">inactif/span></td>
+                                            <td>23</td>
                                             <td><a href="#">voir plus</a></td>
                                         </tr>
                                     </tbody>
@@ -506,6 +508,7 @@
         <script src="../../assets/js/dashforge.aside.js"></script>
         <script src="../../assets/js/dashforge.sampledata.js"></script>
         <script src="../../assets/js/dashboard-two.js"></script>
+
         <!-- Table -->
         <!-- <script src="../../DataTables/jQuery-1.12.4/jquery-1.12.4.min.js"></script> -->
         <script type="text/javascript" src="../../DataTables/DataTables-1.10.24/js/jquery.dataTables.min.js"></script>
