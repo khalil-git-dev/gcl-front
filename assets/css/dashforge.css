@@ -438,7 +438,7 @@ h2,
 
 h3,
 .h3 {
-    font-size: 1.53125rem;
+    font-size: 3.53125rem;
 }
 
 h4,
@@ -12891,8 +12891,8 @@ textarea.form-control {
 }
 
 .activity-icon {
-    width: 40px;
-    height: 40px;
+    width: 60px;
+    height: 60px;
     background-color: #e5e9f2;
     border-radius: 100%;
     display: flex;
@@ -19292,11 +19292,11 @@ textarea.parsley-success:focus {
 }
 
 .bg-brand-02 {
-    background-color: #042893;
+    background-color: #d8a723;
 }
 
 .bg-brand-03 {
-    background-color: #1ce1ac;
+    background-color: rgba(227 6 19, 0.33);
 }
 
 .bg-ui-01 {
@@ -19464,7 +19464,7 @@ textarea.parsley-success:focus {
 }
 
 .bg-primary-light {
-    background-color: rgba(1, 104, 250, 0.15);
+    background-color: #07663333;
 }
 
 .bg-success-light {
