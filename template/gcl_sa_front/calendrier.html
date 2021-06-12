@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Meta -->
+    <meta name="description" content="Responsive Bootstrap 4 Dashboard Template">
+    <meta name="author" content="ThemePixels">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="../../assets/img/logo.png">
+
+    <title>GCL_SA</title>
+    <!-- Calendrier css -->
+    <link rel="stylesheet" href="../../assets/css/calendrier.css">
+    <!-- vendor css -->
+    <link href="../../lib/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
+    <link href="../../lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+    <link href="../../lib/fullcalendar/fullcalendar.min.css" rel="stylesheet">
+    <link href="../../lib/select2/css/select2.min.css" rel="stylesheet">
+
+    <!-- DashForge CSS -->
+
+    <link rel="stylesheet" href="../../assets/css/dashforge.css">
+    <link rel="stylesheet" href="../../assets/css/dashforge.dashboard.css">
+    <!-- Tableau -->
+    <!-- <link rel="stylesheet" type="text/css" href="../../DataTables/SemanticUI-2.2.13/semantic.min.css"> -->
+    <!-- <link rel="stylesheet" type="text/css" href="../../DataTables/DataTables-1.10.24/css/dataTables.semanticui.min.css"> -->
+
+    <!-- <link rel="stylesheet" type="text/css" href="../../DataTables/datatables.css"> -->
+
+
+</head>
+
+<body>
+    <aside class="aside aside-fixed">
+        <div class="aside-header">
+            <div class="aside-logo">
+                <a href="#"><img class="logo" src="../../assets/img/logo.png" alt=""></a>
+            </div>
+            <!-- <a href="" class="aside-menu-link">
+                <i data-feather="menu"></i>
+                <i data-feather="x"></i>
+            </a> -->
+        </div>
+        <div class="aside-body">
+            <ul class="nav nav-aside">
+                <!-- <li class="nav-label">Menu</li> -->
+                <li class="nav-item"><a href="#" class="nav-link"><i data-feather="home"></i> <span>Accueil</span></a></li>
+                <li class="nav-label mg-t-25">La Gestion</li>
+                <li class="nav-item active"><a href="dashboard-two.html" class="nav-link"><i data-feather="file-text"></i> <span>Gestion des classes</span></a></li>
+                <li class="nav-item with-sub">
+                    <a href="" class="nav-link"><i data-feather="user"></i> <span>Etudiants </span></a>
+                    <ul>
+                        <li><a href="#">Liste des etudiants</a></li>
+                        <li><a href="#">Gestion des parents</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item"><a href="app-calendar.html" class="nav-link"><i data-feather="calendar"></i> <span>Calendrier</span></a></li>
+                <li class="nav-item"><a href="app-chat.html" class="nav-link"><i data-feather="dollar-sign"></i> <span>Finance</span></a></li>
+                <li class="nav-label mg-t-25">Configuration</li>
+                <li class="nav-item"><a href="app-file-manager.html" class="nav-link"><i data-feather="file"></i> <span>Documuents</span></a></li>
+                <li class="nav-item"><a href="page-team.html" class="nav-link"><i data-feather="user"></i> <span>Compte</span></a></li>
+
+            </ul>
+        </div>
+    </aside>
+
+    <div class="content ht-100v pd-0">
+        <div class="content-header navbar navbar-header ">
+            <div class="navbar-right">
+                <a id="navbarSearch" href="" class="search-link"><i data-feather="search"></i></a>
+                <div class="dropdown dropdown-message">
+                    <a href="" class="dropdown-link new-indicator" data-toggle="dropdown">
+                        <i data-feather="message-square"></i>
+                        <span>5</span>
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right">
+                        <div class="dropdown-header">Nouveaux Messages</div>
+                        <a href="" class="dropdown-item">
+                            <div class="media">
+                                <div class="avatar avatar-sm avatar-online"><img src="https://via.placeholder.com/350" class="rounded-circle" alt=""></div>
+                                <div class="media-body mg-l-15">
+                                    <strong>Socrates Itumay</strong>
+                                    <p>nam libero tempore cum so...</p>
+                                    <span>Mar 15 12:32pm</span>
+                                </div>
+                                <!-- media-body -->
+                            </div>
+                            <!-- media -->
+                        </a>
+                        <a href="" class="dropdown-item">
+                            <div class="media">
+                                <div class="avatar avatar-sm avatar-online"><img src="https://via.placeholder.com/500" class="rounded-circle" alt=""></div>
+                                <div class="media-body mg-l-15">
+                                    <strong>Joyce Chua</strong>
+                                    <p>on the other hand we denounce...</p>
+                                    <span>Mar 13 04:16am</span>
+                                </div>
+                                <!-- media-body -->
+                            </div>
+                            <!-- media -->
+                        </a>
+                        <a href="" class="dropdown-item">
+                            <div class="media">
+                                <div class="avatar avatar-sm avatar-online"><img src="https://via.placeholder.com/600" class="rounded-circle" alt=""></div>
+                                <div class="media-body mg-l-15">
+                                    <strong>Althea Cabardo</strong>
+                                    <p>is there anyone who loves...</p>
+                                    <span>Mar 13 02:56am</span>
+                                </div>
+                                <!-- media-body -->
+                            </div>
+                            <!-- media -->
+                        </a>
+                        <a href="" class="dropdown-item">
+                            <div class="media">
+                                <div class="avatar avatar-sm avatar-online"><img src="https://via.placeholder.com/500" class="rounded-circle" alt=""></div>
+                                <div class="media-body mg-l-15">
+                                    <strong>Adrian Monino</strong>
+                                    <p>duis aute irure dolor in repre...</p>
+                                    <span>Mar 12 10:40pm</span>
+                                </div>
+                                <!-- media-body -->
+                            </div>
+                            <!-- media -->
+                        </a>
+                        <div class="dropdown-footer"><a href="">Voir Messages</a></div>
+                    </div>
+                    <!-- dropdown-menu -->
+                </div>
+                <!-- dropdown -->
+                <div class="dropdown dropdown-notification">
+                    <a href="" class="dropdown-link new-indicator" data-toggle="dropdown">
+                        <i data-feather="bell"></i>
+                        <span>2</span>
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right">
+                        <div class="dropdown-header">Notifications</div>
+                        <a href="" class="dropdown-item">
+                            <div class="media">
+                                <div class="avatar avatar-sm avatar-online"><img src="https://via.placeholder.com/350" class="rounded-circle" alt=""></div>
+                                <div class="media-body mg-l-15">
+                                    <p>Congratulate <strong>Socrates Itumay</strong> for work anniversaries</p>
+                                    <span>Mar 15 12:32pm</span>
+                                </div>
+                                <!-- media-body -->
+                            </div>
+                            <!-- media -->
+                        </a>
+                        <a href="" class="dropdown-item">
+                            <div class="media">
+                                <div class="avatar avatar-sm avatar-online"><img src="https://via.placeholder.com/500" class="rounded-circle" alt=""></div>
+                                <div class="media-body mg-l-15">
+                                    <p><strong>Joyce Chua</strong> just created a new blog post</p>
+                                    <span>Mar 13 04:16am</span>
+                                </div>
+                                <!-- media-body -->
+                            </div>
+                            <!-- media -->
+                        </a>
+                        <a href="" class="dropdown-item">
+                            <div class="media">
+                                <div class="avatar avatar-sm avatar-online"><img src="https://via.placeholder.com/600" class="rounded-circle" alt=""></div>
+                                <div class="media-body mg-l-15">
+                                    <p><strong>Althea Cabardo</strong> just created a new blog post</p>
+                                    <span>Mar 13 02:56am</span>
+                                </div>
+                                <!-- media-body -->
+                            </div>
+                            <!-- media -->
+                        </a>
+                        <a href="" class="dropdown-item">
+                            <div class="media">
+                                <div class="avatar avatar-sm avatar-online"><img src="https://via.placeholder.com/500" class="rounded-circle" alt=""></div>
+                                <div class="media-body mg-l-15">
+                                    <p><strong>Adrian Monino</strong> added new comment on your photo</p>
+                                    <span>Mar 12 10:40pm</span>
+                                </div>
+                                <!-- media-body -->
+                            </div>
+                            <!-- media -->
+                        </a>
+                        <div class="dropdown-footer"><a href="">View all Notifications</a></div>
+                    </div>
+                    <!-- dropdown-menu -->
+                </div>
+                <!-- dropdown -->
+                <div class="dropdown dropdown-profile">
+                    <a href="" class="dropdown-link" data-toggle="dropdown" data-display="static">
+                        <div class="avatar avatar-sm"><img src="https://via.placeholder.com/500" class="rounded-circle" alt=""></div>
+                    </a>
+                    <!-- dropdown-link -->
+                    <div class="dropdown-menu dropdown-menu-right tx-13">
+                        <div class="avatar avatar-lg mg-b-15"><img src="https://via.placeholder.com/500" class="rounded-circle" alt=""></div>
+                        <h6 class="tx-semibold mg-b-5">Souleymane KA</h6>
+                        <p class="mg-b-25 tx-12 tx-color-03">Administrateur</p>
+
+                        <a href="" class="dropdown-item"><i data-feather="edit-3"></i> Modifier Profile</a>
+                        <a href="page-profile-view.html" class="dropdown-item"><i data-feather="user"></i> Voir Profile</a>
+                        <div class="dropdown-divider"></div>
+                        <a href="page-help-center.html" class="dropdown-item"><i data-feather="help-circle"></i> Centre d'aide</a>
+                        <a href="" class="dropdown-item"><i data-feather="life-buoy"></i> Forum</a>
+                        <a href="" class="dropdown-item"><i data-feather="settings"></i>Paramètres compte</a>
+                        <a href="page-signin.html" class="dropdown-item"><i data-feather="log-out"></i>Deconnection</a>
+                    </div>
+                    <!-- dropdown-menu -->
+                </div>
+                <!-- dropdown -->
+            </div>
+            <!-- navbar-right -->
+            <div class="navbar-search">
+                <div class="navbar-search-header">
+                    <input type="search" class="form-control" placeholder="Type and hit enter to search...">
+                    <button class="btn"><i data-feather="search"></i></button>
+                    <a id="navbarSearchClose" href="" class="link-03 mg-l-5 mg-lg-l-10"><i data-feather="x"></i></a>
+                </div>
+                <!-- navbar-search-header -->
+                <div class="navbar-search-body">
+                    <label class="tx-10 tx-medium tx-uppercase tx-spacing-1 tx-color-03 mg-b-10 d-flex align-items-center">Recherches recentes</label>
+                    <ul class="list-unstyled">
+                        <li><a href="dashboard-one.html">modern dashboard</a></li>
+                        <li><a href="app-calendar.html">calendar app</a></li>
+                        <li><a href="../../collections/modal.html">modal examples</a></li>
+                        <li><a href="../../components/el-avatar.html">avatar</a></li>
+                    </ul>
+                </div>
+                <!-- navbar-search-body -->
+            </div>
+            <!-- navbar-search -->
+        </div>
+        <!-- content-header -->
+
+        <div class="content-body">
+            <div class="container pd-x-0">
+                <div class="row row-xs">
+                    <div class="col-xl-12 col-lg-12 col-md-12">
+                        <!-- <div class="row row-xs"> -->
+                        <!-- card-header -->
+                        <div class="d-sm-flex align-items-center justify-content-between mg-b-20 mg-lg-b-25 mg-xl-b-30">
+                            <div>
+                                <nav aria-label="breadcrumb">
+                                    <ol class="breadcrumb breadcrumb-style1 mg-b-10">
+                                        <li class="breadcrumb-item"><a href="#">Dashboard</a></li>
+                                        <li class="breadcrumb-item active" aria-current="page">liste des éléves</li>
+                                    </ol>
+                                </nav>
+                                <h4 class="mg-b-0 tx-spacing--1">Liste des éléves</h4>
+                            </div>
+                        </div>
+                        <!-- </div> -->
+
+                        <div class="content ht-100v pd-0">
+                            <!-- content-header -->
+
+                            <div class="content-body pd-0">
+                                <div id="calendar" class="calendar-content-body"></div>
+                            </div>
+                        </div>
+                        <!-- content -->
+
+                        <div class="modal calendar-modal-create fade effect-scale" id="modalCreateEvent" role="dialog" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-body pd-20 pd-sm-30">
+                                        <button type="button" class="close pos-absolute t-20 r-20" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true"><i data-feather="x"></i></span>
+                                  </button>
+
+                                        <h5 class="tx-18 tx-sm-20 mg-b-20 mg-sm-b-30">Create New Event</h5>
+
+                                        <form id="formCalendar" method="post" action="app-calendar.html">
+                                            <div class="form-group">
+                                                <input type="text" class="form-control" placeholder="Add title">
+                                            </div>
+                                            <!-- form-group -->
+                                            <div class="form-group d-flex align-items-center">
+                                                <div class="custom-control custom-radio">
+                                                    <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input" checked>
+                                                    <label class="custom-control-label" for="customRadio1">Event</label>
+                                                </div>
+                                                <div class="custom-control custom-radio mg-l-20">
+                                                    <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input" checked>
+                                                    <label class="custom-control-label" for="customRadio2">Reminder</label>
+                                                </div>
+                                            </div>
+                                            <!-- form-group -->
+                                            <div class="form-group mg-t-30">
+                                                <label class="tx-uppercase tx-sans tx-11 tx-medium tx-spacing-1 tx-color-03">Start Date</label>
+                                                <div class="row row-xs">
+                                                    <div class="col-7">
+                                                        <input id="eventStartDate" type="text" value="" class="form-control" placeholder="Select date">
+                                                    </div>
+                                                    <!-- col-7 -->
+                                                    <div class="col-5">
+                                                        <select class="custom-select">
+                                            <option selected>Select Time</option>
+                                          </select>
+                                                    </div>
+                                                    <!-- col-5 -->
+                                                </div>
+                                                <!-- row -->
+                                            </div>
+                                            <!-- form-group -->
+                                            <div class="form-group">
+                                                <label class="tx-uppercase tx-sans tx-11 tx-medium tx-spacing-1 tx-color-03">End Date</label>
+                                                <div class="row row-xs">
+                                                    <div class="col-7">
+                                                        <input id="eventEndDate" type="text" value="" class="form-control" placeholder="Select date">
+                                                    </div>
+                                                    <!-- col-7 -->
+                                                    <div class="col-5">
+                                                        <select class="custom-select">
+                                            <option selected>Select Time</option>
+                                          </select>
+                                                    </div>
+                                                    <!-- col-5 -->
+                                                </div>
+                                                <!-- row -->
+                                            </div>
+                                            <!-- form-group -->
+                                            <div class="form-group">
+                                                <textarea class="form-control" rows="2" placeholder="Write some description (optional)"></textarea>
+                                            </div>
+                                            <!-- form-group -->
+                                        </form>
+                                    </div>
+                                    <!-- modal-body -->
+                                    <div class="modal-footer">
+                                        <button type="submit" class="btn btn-primary mg-r-5">Add Event</button>
+                                        <a href="" class="btn btn-secondary" data-dismiss="modal">Discard</a>
+                                    </div>
+                                    <!-- modal-footer -->
+                                </div>
+                                <!-- modal-content -->
+                            </div>
+                            <!-- modal-dialog -->
+                        </div>
+                        <!-- modal -->
+
+                        <div class="modal calendar-modal-event fade effect-scale" id="modalCalendarEvent" role="dialog" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h6 class="event-title"></h6>
+                                        <nav class="nav nav-modal-event">
+                                            <a href="#" class="nav-link"><i data-feather="external-link"></i></a>
+                                            <a href="#" class="nav-link"><i data-feather="trash-2"></i></a>
+                                            <a href="#" class="nav-link" data-dismiss="modal"><i data-feather="x"></i></a>
+                                        </nav>
+                                    </div>
+                                    <!-- modal-header -->
+                                    <div class="modal-body">
+                                        <div class="row row-sm">
+                                            <div class="col-sm-6">
+                                                <label class="tx-uppercase tx-sans tx-11 tx-medium tx-spacing-1 tx-color-03">Start Date</label>
+                                                <p class="event-start-date"></p>
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <label class="tx-uppercase tx-sans tx-11 tx-medium tx-spacing-1 tx-color-03">End Date</label>
+                                                <p class="event-end-date"></p>
+                                            </div>
+                                            <!-- col-6 -->
+                                        </div>
+                                        <!-- row -->
+
+                                        <label class="tx-uppercase tx-sans tx-11 tx-medium tx-spacing-1 tx-color-03">Description</label>
+                                        <p class="event-desc tx-gray-900 mg-b-40"></p>
+
+                                        <a href="" class="btn btn-secondary pd-x-20" data-dismiss="modal">Close</a>
+                                    </div>
+                                    <!-- modal-body -->
+                                </div>
+                                <!-- modal-content -->
+                            </div>
+                            <!-- modal-dialog -->
+                        </div>
+                        <!-- modal -->
+
+
+
+                        <!-- END card -->
+                    </div>
+
+                </div>
+                <!-- container -->
+            </div>
+        </div>
+        <script src="../../lib/jquery/jquery.min.js"></script>
+        <script src="../../lib/jqueryui/jquery-ui.min.js"></script>
+        <script src="../../lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="../../lib/feather-icons/feather.min.js"></script>
+        <script src="../../lib/perfect-scrollbar/perfect-scrollbar.min.js"></script>
+        <script src="../../lib/moment/min/moment.min.js"></script>
+        <script src="../../lib/fullcalendar/fullcalendar.min.js"></script>
+        <script src="../../lib/select2/js/select2.full.min.js"></script>
+
+        <script src="../../assets/js/dashforge.js"></script>
+        <script src="../../assets/js/dashforge.aside.js"></script>
+        <script src="../../assets/js/calendar-events.js"></script>
+        <script src="../../assets/js/dashforge.calendar.js"></script>
+        <!-- Table -->
+        <!-- <script src="../../DataTables/jQuery-1.12.4/jquery-1.12.4.min.js"></script> -->
+        <script type="text/javascript" src="../../DataTables/DataTables-1.10.24/js/jquery.dataTables.min.js"></script>
+        <script type="text/javascript" src="../../assets/js/settingsdatable.js"></script>
+        <script type="text/javascript" src="../../DataTables/DataTables-1.10.24/js/dataTables.semanticui.min.js"></script>
+        <script type="text/javascript" src="../../DataTables/SemanticUI-2.2.13/semantic.min.js"></script>
+
+
+
+
+
+</body>
+
+</html>

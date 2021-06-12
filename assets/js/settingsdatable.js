@@ -6,4 +6,9 @@ $('#tableui').DataTable({
         lengthMenu: '_MENU_ items/page',
         select: true
     }
+
+
+});
+$(document).ready(function() {
+    $('tableui').DataTable();
 });
